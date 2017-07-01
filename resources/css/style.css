@@ -26,7 +26,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-	margin: 1rem auto;
 	background-color: #5F9EA0;
 	color: white;
 }
@@ -107,8 +106,7 @@ footer img {
 }
 /* ----------- iPad 3 and 4 ----------- */
 /* Portrait and Landscape */
-@media only screen 
-  and (min-width: 768px) 
+@media only screen  
   and (max-width: 1024px)  {
   	nav.container {
 		max-width: 100%;
