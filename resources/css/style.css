@@ -108,7 +108,7 @@ footer img {
 /* Portrait and Landscape */
 @media only screen  
   and (max-width: 1024px)  {
-  	nav.container {
+  	nav .container {
 		max-width: 100%;
 	}
 	header {
