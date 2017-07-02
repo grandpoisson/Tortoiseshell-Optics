@@ -129,8 +129,21 @@ footer img {
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-{ 
-
+  and (min-width: 375px) { 
+	header {
+    	height: 17rem;	
+    	background-position: 20%;
+	}
+	nav div span {
+		display: none;
+	}
+	.main-banner {
+    	padding-top: 1rem;
+    	padding-bottom: 1rem;
+    	margin-top: 9rem;
+    	margin-right: 0rem;
+	}
+	.main-banner h1 {
+		font-size: 1.33rem;
+	}
 }
