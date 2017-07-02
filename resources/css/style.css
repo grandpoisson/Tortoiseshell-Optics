@@ -107,7 +107,7 @@ footer img {
 /* ----------- iPad 3 and 4 ----------- */
 /* Portrait and Landscape */
 @media only screen  
-  and (min-width: 768px)  {
+  and (max-width: -width: 768px)  {
   	nav .container {
 		max-width: 100%;
 	}
@@ -129,7 +129,7 @@ footer img {
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-width: 375px) { 
+  and (max-width: 375px) { 
 	header {
     	height: 17rem;	
     	background-position: 20%;
