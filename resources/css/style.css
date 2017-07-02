@@ -130,20 +130,66 @@ footer img {
 /* Portrait and Landscape */
 @media only screen 
   and (max-width: 375px) { 
+  	nav .container {
+		max-width: 100%;
+	}
 	header {
-    	height: 17rem;	
+    	height: 17rem;
+    	padding-top: 0px;
     	background-position: 20%;
 	}
 	nav div span {
 		display: none;
 	}
+	.menu ul {
+		display: none;
+	}
+	.menu ul.mobile-menu{
+		display: block;
+	}
 	.main-banner {
     	padding-top: 1rem;
     	padding-bottom: 1rem;
-    	margin-top: 9rem;
-    	margin-right: 0rem;
+    	margin: 9rem auto 0 auto;
+    	width: 100%;
+    	text-align: center;
 	}
 	.main-banner h1 {
-		font-size: 1.33rem;
+		font-size: 1rem;
+	}
+.services {
+	flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3.77rem;
+	}
+ .service {
+    height: auto;
+    margin: .77rem;
+    font-size: .77rem;
+	}
+.philosophy-appointment {
+	flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3.77rem;
+	}
+.info {
+	width: auto;	
+	}
+.info .title {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+	}
+.info p {
+    padding: 1rem;
+    font-size: .77rem;
+	}
+footer {
+	justify-content: center;
+}
+footer span {
+	display: none;
 	}
 }
